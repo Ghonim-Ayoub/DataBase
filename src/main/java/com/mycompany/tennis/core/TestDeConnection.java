@@ -32,7 +32,7 @@ public class TestDeConnection {
         }
         finally {
             try {
-                // la déconnection
+                // la déconnection quelque soit le déroulement de la connecxion
                 if (conn!=null) {
                     conn.close();
                 }
